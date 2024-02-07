@@ -5,8 +5,6 @@
 
 # Mini Project 1
 
-Simple overview of use/purpose.
-
 ## Description
 
 This project will utilize yFinance to gather the last ten trading days of 5 stocks. It will put this information into a NumPy array and then use Matplotlib in order to create 5 graphs, then output as PNG files in the "charts" folder.
