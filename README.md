@@ -1,6 +1,6 @@
 # miniproject1janelynnichols
 # INF601 - Advanced Programming in Python
-# Janely Nichols
+# Janelyn Nichols
 # Mini Project 1
 
 
