@@ -20,7 +20,7 @@ import pathlib as Path
 #(10/10 points) I will be checking out the main branch of your project. Please be sure to include a requirements.txt file which contains all the packages that need installed. You can create this fille with the output of pip freeze at the terminal prompt.
 #(20/20 points) There should be a README.md file in your project that explains what your project is, how to install the pip requirements, and how to execute the program. Please use the GitHub flavor of Markdown.
 
-tickers = ["MSFT", "TSLA", "SONY", "META", "APPL"]
+tickers = ["MSFT", "TSLA", "SONY", "META", "ANET"]
 
 try:
     os.mkdir("C:\charts")
