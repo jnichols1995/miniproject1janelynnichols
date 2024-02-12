@@ -1,4 +1,4 @@
-#INF601 - Advanved Programming in Python
+# INF601 - Advanved Programming in Python
 # Janelyn Nichols
 # Mini Project 1
 
@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import yfinance as yf
 import copy
+import os
 import pathlib as Path
 
 
@@ -22,7 +23,7 @@ import pathlib as Path
 tickers = ["MSFT", "TSLA", "SONY", "META", "APPL"]
 
 try:
-    Path("charts").mkdir()
+    Path("charts").mkdir(parents=True, exist_ok=True)
 except FileExistsError:
     pass
 
