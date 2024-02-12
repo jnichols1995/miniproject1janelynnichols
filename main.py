@@ -23,7 +23,7 @@ import pathlib as Path
 tickers = ["MSFT", "TSLA", "SONY", "META", "APPL"]
 
 try:
-    Path("charts").mkdir(parents=True, exist_ok=True)
+    os.mkdir("C:\charts")
 except FileExistsError:
     pass
 
